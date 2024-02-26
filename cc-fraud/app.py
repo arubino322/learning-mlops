@@ -7,7 +7,7 @@ import pandas as pd
 # from sklearn.metrics import classification_report
 
 base_path = "gs://machine-learning-workspace"
-model_path = f"{base_path}/models/cc-fraud/clf_model.pkl"
+model_path = f"{base_path}/cc-fraud/models/clf_model.pkl"
 # test_features_path = f"{base_path}/preprocessed_data/test_features.csv"
 
 fs = gcsfs.GCSFileSystem()
