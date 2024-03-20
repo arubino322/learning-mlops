@@ -35,7 +35,7 @@ print(classification_report(predictions, targets))
 # when inputing the file, should I include actual target var so I can monitor accuracy?
 
 # data/eval/ is where input data from streamlit will go
-# data/predictions is where predictions will go (with eval data?)
+# data/predictions is where predictions will go (with eval data?) 
 
 
 
@@ -75,3 +75,4 @@ print(classification_report(predictions, targets))
 # I think I chose to use pandas b/c it plays nice with Streamlit
 # However, the end result I might not need it, since streamlit will simply be a UI to add more input
 # data to then trigger/retrain the model.
+
